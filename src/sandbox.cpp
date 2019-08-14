@@ -12,8 +12,8 @@ public:
   }  
 };
 
-// class derivedOne : public myBase {
-class derivedOne : private myBase {
+class derivedOne : public myBase {
+// class derivedOne : private myBase {
 public:
   derivedOne() {
     cout << "derOne ctr" << endl;    

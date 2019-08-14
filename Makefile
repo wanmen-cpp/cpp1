@@ -1,5 +1,5 @@
-CXX      := -clang++-7
-#CXX      := -c++
+#CXX      := -clang++-7
+CXX      := -c++
 CXXFLAGS := -pedantic-errors -Wall -Wextra -Werror
 LDFLAGS  := -L/usr/lib -lstdc++ -lm
 BUILD    := ./build
